@@ -1,6 +1,6 @@
-import { cn } from "@/lib/utils";
+import { cn } from "../lib/utils.ts";
 
-const MMPageTitle = ({
+export const MMPageTitle = ({
   children,
   className,
 }: {
@@ -13,5 +13,3 @@ const MMPageTitle = ({
     </h1>
   );
 };
-
-export default MMPageTitle;

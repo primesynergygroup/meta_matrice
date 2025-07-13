@@ -1,9 +1,17 @@
 {
   "name": "meta_matrice",
   "version": "1.0.0",
-  "main": "es6/index.js",
-  "module": "es6/index.js",
-  "description": "",
+  "main": "dist/meta-matrice.umd.js",
+  "module": "dist/meta-matrice.umd.js",
+  "types": "dist/index.d.ts",
+  "description": "Prime Synergy Meta Matrice library.",
+  "exports": {
+    ".": {
+      "import": "./dist/meta-matrice.es.js",
+      "require": "./dist/meta-matrice.umd.js",
+      "types": "./dist/index.d.ts"
+    }
+  },
   "homepage": "https://github.com/primesynergygroup/meta_matrice#readme",
   "bugs": {
     "url": "https://github.com/primesynergygroup/meta_matrice/issues"
@@ -40,6 +48,7 @@
     "globals": "^16.3.0",
     "typescript": "~5.8.3",
     "typescript-eslint": "^8.35.1",
-    "vite": "^7.0.4"
+    "vite": "^7.0.4",
+    "vite-plugin-dts": "^4.5.4"
   }
 }
