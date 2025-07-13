@@ -1,6 +1,8 @@
 {
   "name": "meta_matrice",
   "version": "1.0.0",
+  "main": "es6/index.js",
+  "module": "es6/index.js",
   "description": "",
   "homepage": "https://github.com/primesynergygroup/meta_matrice#readme",
   "bugs": {
